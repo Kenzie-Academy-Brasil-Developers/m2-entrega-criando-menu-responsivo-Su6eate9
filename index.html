@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+    <link rel="shortcut icon" href="./src/assets/brand.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <script defer src="./src/js/index.js"></script>
+</head>
+<body>
+    <header>
+        <a id="brand" href="#">Tech Blog</a>
+        <nav class="header__section__desktop">
+            <ul class="section__list">
+                <li><a href="">All</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">Javascript</a></li>
+                <li><a href="">Python</a></li>
+                <li><a href="">Java</a></li>
+            </ul>
+            <article class="header__article">
+                <div class="section__div">
+                    <button>Go</button>
+                    <input type="text" placeholder="Search for">
+                </div>
+                <img src="./src/assets/user.png" alt="user">
+            </article>
+        </nav>
+        <nav class="header__nav" id="header__nav">
+            <button id="btn__menu" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu__ul" aria-expanded="false">
+                <span id="btn__layout"></span>
+            </button>
+            <div class="container__menu">
+                <ul id="menu__ul" role="menu">
+                    <li><a href="">All</a></li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href="">Javascript</a></li>
+                    <li><a href="">Python</a></li>
+                    <li><a href="">Java</a></li>
+                </ul>
+                <article class="search">
+                    <button>Go</button>
+                    <input type="text" placeholder="Search for">
+                </article>
+                <article class="user__menu">
+                    <img src="./src/assets/user.png" alt="user">
+                    <h3>Username</h3>
+                </article>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>         
