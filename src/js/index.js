@@ -10,7 +10,6 @@ function toggleMenu(e){
         e.currentTarget.setAttribute("aria-label","Abrir menu")
     }
 }
-
 function menuBurguer(){
     const btnMenu = document.getElementById("btn__menu")
     btnMenu.addEventListener("click",toggleMenu)
